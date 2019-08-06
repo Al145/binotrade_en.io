@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="./sass/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="animatescroll.js"></script>
+    <title>Binotrade</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__navbar">
+            <a href="#" class="logo"><img src="./img/logo.png" alt="logo"></a>
+            <div class="divider"></div>
+                <a class="lang" href="https://al145.github.io/binotrade_ru.io/">ru</a>
+            <ul>
+                <li><a onclick="$('#traders').animatescroll({scrollSpeed:1400,easing:'easeOutBack'});" class="nav">For Traders</a></li>
+                <li><a onclick="$('#about').animatescroll({scrollSpeed:2000,easing:'easeInOutQuint'});" class="nav">About</a></li>
+                <div class="divider_2"></div>
+                <li><a class="nav" href="#">Log in</a></li>
+                <button>Sign up</button>
+            </ul>
+        </div>
+            <div class="hero">
+                <div class="container">
+                    <div class="hero__title">
+                        <h1 class="hero__h1">
+                            A simple tool for online trading
+                        </h1>
+                        <p class="hero__p">
+                            Your first income in a second
+                        </p>
+                        <button class="hero__button">
+                            Start strading
+                        </button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <section class="content">
+            <div class="container">
+                <div class="content__boxes">
+                    <div class="content__box1">
+                        <img src="./img/icon11.png" alt="icon">
+                        <p>
+                            Polish up your winning<br> strategy on a demo account
+                        </p>
+                    </div>
+                    <div class="content__box2">
+                        <img src="./img/icon22.png" alt="icon">
+                        <p>
+                            Determine where the asset price<br> will go: up or down
+                        </p>
+                    </div>
+                    <div class="content__box3">
+                        <img src="./img/icon33.png" alt="icon">
+                        <p>
+                            Trade with a minimum of investment<br> and get up to 95% of the benefits
+                        </p>
+                    </div>
+                    <div class="content__box4">
+                        <img src="./img/icon44.png" alt="icon">
+                        <p>
+                            $10 Minimal Deposit Personal Manager<br> Free learning 24/7 Support
+                        </p>
+                    </div>
+                </div>
+                <div class="content__nav" id="traders">
+                        <a class="content__a"href="#">Minimal deposit 10$</a>
+                        <a class="content__a"href="#">Personal manager</a>
+                        <a class="content__a"href="#">Free learning</a>
+                        <a class="content__a"href="#">Support</a>
+                </div>
+                <div class="content__descr">
+                    <div class="content__text">
+                        <h1>
+                            Minimal deposit 10$
+                        </h1>
+                        <p>
+                            A live account allows you to earn real money. You should<br> sign up and charge the trading account to get the real<br> account. The minimal deposit is $10. It’s a real chance to<br> increase your income!
+                        </p>
+                        <img src="./img/wallet.png" alt="wallet" class="content__wallet">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="partners__box">
+                <span>
+                    More than 50 checked assets
+                </span>
+                <div class="partners__icons">
+                    <img src="./img/partners.png" alt="partners">
+                        <!-- <img src="./img/prt1.png" alt="partner" class="partners__icon">
+                        <img src="./img/prt2.png" alt="partner" class="partners__icon">
+                        <img src="./img/prt3.png" alt="partner" class="partners__icon">
+                        <img src="./img/prt4.png" alt="partner" class="partners__icon">
+                        <img src="./img/prt5.png" alt="partner" class="partners__icon">
+                        <img src="./img/prt6.png" alt="partner" class="partners__icon">
+                        <img src="./img/prt7.png" alt="partner" class="partners__icon">
+                        <img src="./img/prt8.png" alt="partner" class="partners__icon">
+                        <img src="./img/prt9.png" alt="partner" class="partners__icon">
+                        <img src="./img/prt10.png" alt="partner" class="partners__icon"> -->
+                </div>
+            </div>
+        </section>
+
+        <section class="mob_app">
+            <div class="mob_app__text">
+                <span>
+                    Mobile apps
+                </span>
+                <p>
+                    Trading on multiple charts, technical analysis,<br> quotes history and more. Everything you need<br> on the platform is available on any device of<br> your choice.
+                    on any device of your choice.
+                </p>
+                <img src="./img/phone2.png" alt="phone" class="mob_app__phone2">
+                <img src="./img/phone1.png" alt="phone" class="mob_app__phone1">
+                <img src="./img/mob_app-bg2.png" alt="app_bg" class="mob_app__bg">
+            </div>
+        </section>
+        <section class="binotrade" id="about">
+            <div class="container">
+                <div class="binotrade__content">
+                    <span>
+                        <a href="#" class="binotrade_span">Binotrade.com</a> — binary option with personal assistant
+                    </span>
+                    <p>
+                        Binotrade - is a trading platform, a handy tool that offers not only the opportunity to make money on trading binary options, but also provide professional customer service. Immediately after registering at Binotrade.com, each client receives a personal consultant.<br> Do you need advice on asset trading or you can not find a suitable trading strategy? Contact your personal adviser to help you with this. You do not need VIP-client status to use a qualified client service!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__content">
+                <ul>
+                    <li class="footer__li_main"><a class="footer__a" href="#">Legal information</a></li>
+                    <li><a class="footer__a" href="#">Terms&Conditions</a></li>
+                    <li><a class="footer__a" href="#">Anti-money laundering policy</a></li>
+                    <li><a class="footer__a" href="#">Privacy Policy</a></li>
+                    <li><a class="footer__a" href="#">Payment Policy</a></li>
+                </ul>
+                <ul>
+                    <li class="footer__li_main"><a class="footer__a" href="#">For traders</a></li>
+                    <li><a class="footer__a" href="#">Assets</a></li>
+                    <li><a class="footer__a" href="#">Quotes archive</a></li>
+                    <li><a class="footer__a" href="#">FAQ</a></li>
+                    <li><a class="footer__a" href="#">Learning</a></li>
+                </ul>
+                <ul class="footer__content_ul3">
+                    <li class="footer__li_main"><a class="footer__a" href="#">About company</a></li>
+                    <li><a class="footer__a" href="#">News</a></li>
+                    <li><a class="footer__a" href="#">Contacts</a></li>
+                </ul>
+                <div class="footer__icons">
+                    <div class="footer__store">
+                        <a href="#"><img src="./img/google.png" alt="google" class="footer__google"></a>
+                        <a href="#"><img src="./img/apple.png" alt="apple" class="footer__apple"></a>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#"><img src="./img/icon1.png" alt="social" class="footer__soc_icon"></a>
+                        <a href="#"><img src="./img/icon2.png" alt="social" class="footer__soc_icon"></a>
+                        <a href="#"><img src="./img/icon3.png" alt="social" class="footer__soc_icon"></a>
+                        <a href="#"><img src="./img/icon4.png" alt="social" class="footer__soc_icon">
+                    </div>
+                </div>
+                        <div class="footer__solar">
+                           <a href="#"><img src="./img/logo_solar.png" alt="solar"></a>
+                        </div>
+            </div>
+        </footer>
+
+    <!-- <script src="scroll.js"></script> -->
+</body>
+</html>
